@@ -1,0 +1,29 @@
+html,body {
+    margin: 0;
+}
+
+#array {
+    margin: 10px;
+}
+
+.smallbox {
+    width: 1.2rem;
+    height: 1.2rem;
+    text-align: center;
+    padding: 2px;
+    margin-right: 2px;
+}
+
+#stat {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: yellow;
+    padding: 0px 10px 0px 10px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+#msg {
+    float: left;
+    width: 100%;
+}
