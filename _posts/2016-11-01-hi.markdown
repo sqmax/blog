@@ -1,8 +1,0 @@
----
-published: true
-title: Hi
-layout: post
----
-#A test
-
-##Best Example
