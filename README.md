@@ -1,4 +1,4 @@
-﻿# About this Cool Concise Jekyll Blog Theme 🤘🤘🤘
+# About this Cool Concise Jekyll Blog Theme 🤘🤘🤘
 
 [![GitHub stars](https://img.shields.io/github/stars/Gaohaoyang/gaohaoyang.github.io.svg)](https://github.com/Gaohaoyang/gaohaoyang.github.io/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Gaohaoyang/gaohaoyang.github.io.svg)](https://github.com/Gaohaoyang/gaohaoyang.github.io/network)
@@ -198,7 +198,7 @@ zhihu_username: gaohaoyang
 linkedIn_username: gaohaoyang
 dribbble_username:
 
-description_footer: 本站记录我前端之旅的沿途风景！
+description_footer: 本站记录我后端之旅的沿途风景！
 ```
 
 #### Comments info
