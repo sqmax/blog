@@ -7,7 +7,7 @@
 
 # Site settings
 title: sqmax
-brief-intro: Back-End Develop Engineer
+brief-intro: 一个Java开发工程师
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sqmax.github.io" # the base hostname & protocol for your site
 
@@ -22,7 +22,7 @@ weibo_username: sqpolar
 zhihu_username: sqpolar
 linkedIn_username: sqpolar
 dribbble_username: sqpolar
-description_footer: 本站记录我web之旅的沿途风景！
+description_footer: 本站记录我的JavaWeb学习之路！
 
 # comments
 # two ways to comment, only choose one, and use your own short name
@@ -34,7 +34,7 @@ disqus_shortname: sqpolar
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
 # hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
 # xxxxx字符串
-baidu_tongji_id: cf8506e0ef223e57ff6239944e5d46a4
+baidu_tongji_id: 8a199f5799f777e007b13ab849165fe5
 google_analytics_id: UA-72449510-4 # google 分析追踪id
 
 # Build settings
