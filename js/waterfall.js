@@ -14,6 +14,13 @@
      */
   var demoContent = [
     {
+      demo_link: 'http://www.sqmax.top/SurvingAndMapping/',
+      img_link: 'https://i.loli.net/2018/02/04/5a770ee43925d.jpg',
+      code_link: 'https://github.com/sqmax/SurvingAndMapping',
+      title: '2017毕业设计-基于Android的测量程序设计',
+      core_tech: 'Android 水准测量 导线测量',
+      description: '主要包含水准测量和导线测量两个模块。'
+    },{
       demo_link: 'https://codepen.io/haoyang/pen/jrvrQq',
       img_link: 'https://ooo.0o0.ooo/2016/11/24/5836d81f48cd2.png',
       code_link: 'https://codepen.io/haoyang/pen/jrvrQq',
