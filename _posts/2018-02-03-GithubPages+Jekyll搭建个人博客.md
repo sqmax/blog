@@ -13,8 +13,9 @@ tags: jekyll Github
 
 
 
-整个安装过程需要安装：Ruby,RubyGems,Jekyll.
-我本来是用Windows来搭建的，但在安装Jekyll是出了问题，而写没有找到解决的办法，所以我又切换到Linux系统下重新进行的。
+
+我本来是用Windows来搭建的，但在安装Jekyll是出了问题，而写没有找到解决的办法，所以我又切换到Linux系统,下重新进行的，我这里是用的是Ubuntu 16.04LTS发行版本。
+整个安装过程需要安装：Ruby,RubyGems,Jekyll，看别的文章还要安装一些其它的东器，但我并没有自己安装，可能我的Linux本身就带有吧。
 
 ## 安装Ruby
 到ruby官网下载安装：[https://www.ruby-lang.org/en/downloads/](https://www.ruby-lang.org/en/downloads/)
@@ -60,8 +61,22 @@ Jekyll使用RubyGems来安装的，执行一下gem install jekyll bundler命令�
 以我自己的博客为例：[https://github.com/sqmax.github.io](https://github.com/sqmax.github.io),克隆到本地，将该目录下除.git目录的所有文件目录拷贝到你自己的本地博客站点目录下：XXX.github.io
 然后将所添加的内容push到github仓库,之后就可以到浏览器地址栏输入你的博客地址：https://XXX.github.io/来进入个人博客网站了。
 
-## 设置自己的域名
-可以到[阿里云](https://wanwang.aliyun.com/domain/)申请域名,购买了域名之后，还要[阿里云的域名控制台](https://netcn.console.aliyun.com/core/domain/list?spm=5176.2020520001.0.0.aM1oA2)解析域名，解析之后在sqmax.github.io目录下建一个名字叫CNAME纯文本文件（注意无后缀名），将域名写在里面即可。然后再将新加入的文件push到github远程仓库。
+## 申请一个自己喜欢的域名
+可以到[阿里云](https://wanwang.aliyun.com/domain/)申请域名,并购买，购买之后，我们ping一下自己主页的ip,在命令行注入：ping sqmax.github.io,注意sqmax是个人的github帐号。
+![](http://wx1.sinaimg.cn/large/0072Njp2ly1fo5ucm8bizj30kg02taaj.jpg)
+然后还要在[阿里云的域名控制台](https://netcn.console.aliyun.com/core/domain/list?spm=5176.2020520001.0.0.aM1oA2)解析域名。
+![](http://wx2.sinaimg.cn/large/0072Njp2ly1fo5u9esz84j30vc04bt93.jpg)
+![](http://wx3.sinaimg.cn/large/0072Njp2ly1fo5uhtvxdpj30kp0b83z0.jpg)
+注意这里记录类型选“A”,主机记录我填的是www，这里www是一个二级域名，@或者不填是一级域名，记录值天的就是刚才ping出来的id,这样就把我们自己申请购买的域名和github pages默认的域名sqmax.github.io关联起来了。
+最后，在sqmax.github.io目录下建一个名字叫CNAME的纯文本文件（注意无后缀名），将申请的域名（www.sqmax.top）写在里面即可，然后再将新加入的文件push到github远程仓库。
+这时我们打开浏览器，在地址栏输入：http://www.sqmax.top,就可以访问自己的博客站点了。
+![](http://wx1.sinaimg.cn/large/0072Njp2ly1fo5ulbsywgj30s80kowjj.jpg)
+
+## 参考文章
+
+[http://blog.csdn.net/yanzhenjie1003/article/details/51703370](http://blog.csdn.net/yanzhenjie1003/article/details/51703370)
+[https://gaohaoyang.github.io/2015/02/15/create-my-blog-with-jekyll/](https://gaohaoyang.github.io/2015/02/15/create-my-blog-with-jekyll/)
+
 
 
 
