@@ -13,7 +13,6 @@ tags: jekyll Github
 
 
 
-
 我本来是用Windows来搭建的，但在安装Jekyll是出了问题，而写没有找到解决的办法，所以我又切换到Linux系统,下重新进行的，我这里是用的是Ubuntu 16.04LTS发行版本。
 整个安装过程需要安装：Ruby,RubyGems,Jekyll，看别的文章还要安装一些其它的东器，但我并没有自己安装，可能我的Linux本身就带有吧。
 
