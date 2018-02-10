@@ -1,6 +1,6 @@
 ---
 layout:  post
-title:  "Tomcat相关"
+title:  "JavaWeb基础（一）-Tomcat"
 date:  2018-02-09
 author:  SunQiang
 categories:  JavaWeb基础
@@ -8,14 +8,14 @@ tags: Tomcat JavaWeb
 ---
 * content
 {:toc}
-现在距离学习Web开发也有一年多的时间了，一直折腾各种框架，现在的学习感觉有些迷茫。想当时对基础知识也是一知半解，觉得现在是时候巩固一下基础知识了，就从Servlet技术开始吧，从箱低翻出我大四学习WEB开发时买的第一本书，里面的介绍还是挺详细的。
+现在距离学习Web开发也有一年多的时间了，折腾过各种框架，又想去学习前端，现在的学习感觉有些迷茫。想当时对基础知识也是一知半解，觉得现在是时候巩固一下基础知识了，就从Servlet技术开始吧，从箱低翻出我大四学习WEB开发时买的第一本书，里面的介绍还是挺详细的。
 <img src="http://wx1.sinaimg.cn/large/0072Njp2ly1foaj925bl4j32eo37k1l0.jpg" width="25%" height="25%"/>
 
 
 
 
 
-在学习Servlet技术之前，先复习一下Servlet容器吧，作为Java领域最著名的开源Web容器，相信是每个初学JavaWeb的人都接触过的吧。
+在学习Servlet技术之前，先复习一下Servlet容器——Tomcat吧，作为Java领域最著名的开源Web容器，相信是每个初学JavaWeb的人都接触过的吧。
 
 ## 安装Tomcat服务器
 Tomcat下载地址：[http://tomcat.apache.org](http://tomcat.apache.org)，解压即可。解压缩后有如下的文件结构。
@@ -74,7 +74,7 @@ mail---------------------------Web应用所在目录
 ## 请求处理过程
 Tomcat处理一个Http请求过程如下，假如有一个来自浏览器的请求：http://localhost:8080/webDemo/index
 
-> 1. 服务器8080端口接收到客户发来的请求，被一个在那里监听的叫HTTP1.1的 Connector获取了这个链接请求。
+1. 服务器8080端口接收到客户发来的请求，被一个在那里监听的叫HTTP1.1的 Connector获取了这个链接请求。
 2. Connector把请求交给同在Service下的Engine去处理，并等待Engine的响应。
 3. Engine把url解析，并把请求传给相对应的Host处理，如果没有相对应的Host，则用默认名叫localhost的Host来处理。
 4. Host再把url解析为/webDemo/index.html，匹配context-path为/webDemoway的Context去处理（如果匹配不到就把该请求交给路径名为””的Context去处理）。
@@ -83,9 +83,11 @@ Tomcat处理一个Http请求过程如下，假如有一个来自浏览器的请�
 7. Context把处理完的HttpServletResponse对象返回给Host；
 8. Host把HttpServletResponse对象返回给Engine；
 9. Engine把HttpServletResponse对象返回给Connector；
-> 10. Connector把HttpServletResponse对象返回给客户browser。
+10. Connector把HttpServletResponse对象返回给客户browser。
 
-参考：
-[http://www.cnblogs.com/rocomp/p/4802396.html](http://www.cnblogs.com/rocomp/p/4802396.html)
-[http://objcoding.com/2017/06/12/Tomcat-structure-and-processing-request-process/](http://objcoding.com/2017/06/12/Tomcat-structure-and-processing-request-process/)
-[http://brianway.github.io/2016/02/06/javaweb-note-1-Tomcat/](http://brianway.github.io/2016/02/06/javaweb-note-1-Tomcat/)
+## 参考
+
+* [Tomcat安装配置，配置，优化及负载均衡详解](http://www.cnblogs.com/rocomp/p/4802396.html)
+* [初学 Java Web 开发，请远离各种框架，从 Servlet 开发](https://www.oschina.net/question/12_52027)
+* [http://objcoding.com/2017/06/12/Tomcat-structure-and-processing-request-process/](http://objcoding.com/2017/06/12/Tomcat-structure-and-processing-request-process/)
+* [https://brianway.github.io/2016/02/06/javaweb-note-1-Tomcat/](https://brianway.github.io/2016/02/06/javaweb-note-1-Tomcat/)
