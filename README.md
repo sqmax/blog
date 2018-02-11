@@ -1,7 +1,7 @@
 # 关于这个简洁明快的博客主题 🤘🤘🤘
 
 **博客访问地址：[http://www.sqmax.top/](http://www.sqmax.top/)**。
-博客主题由[HyG](https://github.com/Gaohaoyang)设计
+博客主题由[HyG](https://github.com/Gaohaoyang)设计,我非常喜欢这个主题，非常感谢作者。
 ## 目录
 
 * [预览图](#预览图)
@@ -37,10 +37,10 @@
 先上预览图：
 
 主页
-![index](http://ww3.sinaimg.cn/large/7011d6cfjw1f3bdli86awj211k0oyqen.jpg)
+![index](http://wx4.sinaimg.cn/large/0072Njp2ly1focsuehgasj30v30kh0zj.jpg)
 
 文章页
-![post](http://ww4.sinaimg.cn/large/7011d6cfjw1f3bdmzb9v6j210p0j7gwn.jpg)
+![post](http://wx4.sinaimg.cn/large/0072Njp2ly1focsul301uj30v30kh7cd.jpg)
 
 ## 各部分详情
 
@@ -96,7 +96,7 @@ disqus_shortname: xxx
 
 ### 灯泡效果
 
-![light](http://ww3.sinaimg.cn/large/7011d6cfjw1f3be6y4vp3j209i02rweg.jpg)
+![light](http://wx1.sinaimg.cn/large/0072Njp2ly1focsusylrcj30d601fq2u.jpg)
 
 可以看到导航按钮高亮时，下面的阴影效果，我把这个称为灯泡效果。
 
@@ -104,7 +104,7 @@ disqus_shortname: xxx
 
 完美适配移动端。
 
-![mobile](http://ww4.sinaimg.cn/large/7011d6cfjw1f3bebnzxkpj20ah0fzgp4.jpg)
+![mobile](http://wx4.sinaimg.cn/large/0072Njp2ly1focsxcc4o5j30u01hc0v3.jpg)
 
 ### Footer
 
@@ -285,7 +285,10 @@ Configuration file: E:/GitWorkSpace/blog/_config.yml
 
 在本地访问 localhost:4000 即可看到博客主页。
 
-若安装了 Foxit 福昕pdf阅读器可能会占用4000端口，关闭 Foxit服务 或切换 jekyll 端口即可解决。详情见文章：[对这个 jekyll 博客主题的改版和重构](http://gaohaoyang.github.io/2016/03/12/jekyll-theme-version-2.0/)
+若安装了 Foxit 福昕pdf阅读器可能会占用4000端口，关闭 Foxit服务 或切换 jekyll 端口即可解决。详情见文章：
+* [对这个 jekyll 博客主题的改版和重构](http://gaohaoyang.github.io/2016/03/12/jekyll-theme-version-2.0/)
+* [Github Pages+Jekyll搭建个人博客](http://www.sqmax.top/2018/02/03/GithubPages+Jekyll%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/)
+
 
 若正在使用全局代理，可能会报错502，关闭全局代理即可。
 
