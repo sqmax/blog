@@ -9,8 +9,7 @@ tags: Spring SpringMVC
 
 * content
 {:toc}
-
-本文介绍SpringMVC的基本原理，对于一个浏览器请求SpringMVC的处理流程。
+本文介绍SpringMVC的基本原理，对于一个浏览器请求,SpringMVC的处理流程。
 
 
 
@@ -25,7 +24,6 @@ tags: Spring SpringMVC
 * View-视图
 
 ## Spring的请求流程
-
 SpringMVC的核心在于其请求流程，这是使用SpringMVC框架的基础，SpringMVC是一种基于Servlet的技术，它提供了核心控制器DispatcherServlet和相关的组件，并制定了松散的结构，以适合各种灵活的需求，下面结合流程图对SpringMVC做了一个简要的介绍 。
 
 ![](http://wx3.sinaimg.cn/large/0072Njp2ly1fo6wwxn7tbj30mo08fwf8.jpg)
@@ -78,7 +76,7 @@ HandlerMapping负责根据用户请求找到Handler即处理器，springmvc提�
 作用：进行视图解析，根据逻辑视图名解析成真正的视图（View）。
 ViewResolver负责将处理结果生成View视图，ViewResolver首先根据逻辑视图名解析成物理视图名即具体的页面地址，再生成View视图对象，最后对View进行渲染将处理结果通过页面展示给用户。 SpringMVC框架提供了很多的View视图类型，包括：jstlView、freemarkerView、pdfView等。
 一般情况下需要通过页面标签或页面模版技术将模型数据通过页面展示给用户，需要由工程师根据业务需求开发具体的页面。
-6. 视图View(需要工程师开发jsp...)。
+6. 视图View(**需要工程师开发jsp...**)。
 View是一个接口，实现类支持不同的View类型（jsp、freemarker、pdf...）。
 
 

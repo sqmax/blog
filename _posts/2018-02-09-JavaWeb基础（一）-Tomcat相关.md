@@ -8,14 +8,15 @@ tags: Tomcat JavaWeb
 ---
 * content
 {:toc}
-现在距离学习Web开发也有一年多的时间了，折腾过各种框架，又想去学习前端，现在的学习感觉有些迷茫。想当时对基础知识也是一知半解，觉得现在是时候巩固一下基础知识了，就从Servlet技术开始吧，从箱低翻出我大四学习WEB开发时买的第一本书，里面的介绍还是挺详细的。
-<img src="http://wx1.sinaimg.cn/large/0072Njp2ly1foaj925bl4j32eo37k1l0.jpg" width="25%" height="25%"/>
+现在距离学习Web开发也有一年多的时间了，折腾过各种框架，又想去学习前端，现在的学习感觉有些迷茫。想当时对基础知识也是一知半解，觉得现在是时候巩固一下基础知识了，就从Servlet技术开始吧，从箱低翻出大四学习Web开发时买的第一本书，里面的介绍还是挺详细的。
+
+<img src="http://wx1.sinaimg.cn/large/0072Njp2ly1foaj925bl4j32eo37k1l0.jpg" height="10%" width="30%" />
 
 
 
 
 
-在学习Servlet技术之前，先复习一下Servlet容器——Tomcat吧，作为Java领域最著名的开源Web容器，相信是每个初学JavaWeb的人都接触过的吧。
+在学习Servlet技术之前，先复习一下Servlet容器——Tomcat开始吧！
 
 ## 安装Tomcat服务器
 Tomcat下载地址：[http://tomcat.apache.org](http://tomcat.apache.org)，解压即可。解压缩后有如下的文件结构。
