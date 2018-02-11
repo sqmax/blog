@@ -104,7 +104,7 @@ disqus_shortname: xxx
 
 完美适配移动端。
 
-![mobile](http://wx4.sinaimg.cn/large/0072Njp2ly1focsxcc4o5j30u01hc0v3.jpg)
+![mobile](http://wx4.sinaimg.cn/large/0072Njp2ly1focsxcc4o5j30u01hc0v3.jpg =50X50)
 
 ### Footer
 
