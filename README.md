@@ -37,10 +37,10 @@
 先上预览图：
 
 主页  <br/>
-<img src="http://wx2.sinaimg.cn/large/0072Njp2ly1foctkxesfkj30v30jon3h.jpg" width="70%" height="70%"/>
+<img src="http://wx3.sinaimg.cn/large/0072Njp2ly1focu86ie18j30rw0jtjx7.jpg" width="70%" height="70%"/>
 
 文章页  <br/>
-<img src="http://wx4.sinaimg.cn/large/0072Njp2ly1focsul301uj30v30kh7cd.jpg" width="70%" height="70%"/>
+<img src="http://wx4.sinaimg.cn/large/0072Njp2ly1focuadol2zj30rv0hhgrb.jpg" width="70%" height="70%"/>
 
 ## 各部分详情
 
