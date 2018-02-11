@@ -37,10 +37,10 @@
 先上预览图：
 
 主页
-<img src="http://wx2.sinaimg.cn/large/0072Njp2ly1foctkxesfkj30v30jon3h.jpg" width="70%" height="70"/>
+<img src="http://wx2.sinaimg.cn/large/0072Njp2ly1foctkxesfkj30v30jon3h.jpg" width="70%" height="70%"/>
 
 文章页
-<img src="http://wx4.sinaimg.cn/large/0072Njp2ly1focsul301uj30v30kh7cd.jpg" width="70%" height="70"/>
+<img src="http://wx4.sinaimg.cn/large/0072Njp2ly1focsul301uj30v30kh7cd.jpg" width="70%" height="70%"/>
 
 ## 各部分详情
 
@@ -104,7 +104,7 @@ disqus_shortname: xxx
 
 完美适配移动端。
 
-<img src="http://wx4.sinaimg.cn/large/0072Njp2ly1focsxcc4o5j30u01hc0v3.jpg" width="30%" height="30%"/>
+<img src="http://wx4.sinaimg.cn/large/0072Njp2ly1focsxcc4o5j30u01hc0v3.jpg" width="40%" height="40%"/>
 
 ### Footer
 
