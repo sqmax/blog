@@ -46,7 +46,7 @@ Servlet的生命周期可以归纳为一下几步：
 将编译好的Servlet class文件放到web应用的WEB-INF/classes路径下，然后为了让Servlet能够响应用户请求，还必须将Servlet配置在web应用中。配置Servlet时，需要修改web.xml文件。不过从Servlet3.0开始，新增了注解的方式配置Servlet,只需Servlet类上用@WebServlet注解即可配置一个Servlet。
 下面通过注解配置一个简单的Servlet。
 
-```
+```java
 import java.io.IOException;
 import java.io.PrintWriter;
 
@@ -76,7 +76,7 @@ public class FirstServlet extends HttpServlet {
 ```
 其对应的web.xml配置如下
 
-```
+```xml
 <servlet>
 	<servlet-name>firstServlet</servlet-name>
 	<servlet-class>FirstServlet</servlet-class>
