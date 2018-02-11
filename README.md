@@ -37,7 +37,7 @@
 先上预览图：
 
 主页
-![index](http://wx4.sinaimg.cn/large/0072Njp2ly1focsuehgasj30v30kh0zj.jpg)
+![index](http://wx2.sinaimg.cn/large/0072Njp2ly1foctkxesfkj30v30jon3h.jpg)
 
 文章页
 ![post](http://wx4.sinaimg.cn/large/0072Njp2ly1focsul301uj30v30kh7cd.jpg)
@@ -104,7 +104,7 @@ disqus_shortname: xxx
 
 完美适配移动端。
 
-![mobile](http://wx4.sinaimg.cn/large/0072Njp2ly1focsxcc4o5j30u01hc0v3.jpg =50X50)
+<img src="http://wx4.sinaimg.cn/large/0072Njp2ly1focsxcc4o5j30u01hc0v3.jpg" width="50%" height="50%"/>
 
 ### Footer
 
