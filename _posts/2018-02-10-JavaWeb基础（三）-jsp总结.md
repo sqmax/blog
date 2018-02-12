@@ -8,7 +8,7 @@ tags: JavaWeb JSP
 ---
 * content
 {:toc}
-JSP(Java Server Page)和Servlet是JavaEE规范的两个基本成员，它们是JavaWeb开发的基础知识。JSP和Servlet的本质是一样的。因为JSP最终必须编译成Servlet才能运行，或者说JSP只是生成Servlet的“草稿”文件。但是随着前后端技术的分离，现在，而JSP会镶嵌有大量的Java代码，不利于前后端的分离，所以逐渐被弃用，被FreeMarker，Velocity，Tapestry等更纯粹的表现层技术所替代。但作为曾经最广泛的表现层技术，还是有必要学习一下的。
+JSP(Java Server Page)和Servlet是JavaEE规范的两个基本成员，它们是JavaWeb开发的基础知识。JSP和Servlet的本质是一样的。因为JSP最终必须编译成Servlet才能运行，或者说JSP只是生成Servlet的“草稿”文件。但是随着前后端技术的分离，现在，而JSP会镶嵌有大量的Java代码，不利于前后端的分离，所以逐渐被弃用，被FreeMarker，Velocity，Tapestry等更纯粹的表现层技术所替代。但作为曾经最广泛使用的表现层技术，还是有必要学习一下的。
 
 
 
