@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "JavaWeb基础（三）-Jsp总结"
+title: "JavaWeb基础（三）-JSP总结"
 date: 2018-02-12
 author: SunQiang
 categories: JavaWeb基础
@@ -44,7 +44,7 @@ JSP的本质是Servlet，当用户向指定Servlet发送请求时，Servlet利�
 
 ![](http://wx3.sinaimg.cn/large/0072Njp2ly1fodzeqepd1j30ez05iglx.jpg)
 
-从表面上看我们的web应用，只需要一个JSP界面就能够响应用户请求。事实是我们的Tomcat容器将JSP页面编译成Servlet，Servlet在负责响应用户请求。我用的eclipse开发的，其为上面first.jsp生成的Java类就在一下目录下：`eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/jspPrinciple/org/apache/jsp`,其中`eclipse-workspace`是我的eclipse工作空间，`jspPrinciple`是我的web应用名（如果你是手动直接将web应用部署在Tomcat中，那么生成的Java类就应该在Tomcat的`work/Catalina/localhost/jspPrinciple/org/apache/jsp`下）,名字就叫`first_jsp.java`。
+从表面上看我们的web应用，只需要一个JSP界面就能够响应用户请求。事实是我们的Tomcat容器将JSP页面编译成Servlet，Servlet在负责响应用户请求。我用的eclipse开发的，其为上面first.jsp生成的Java类就在下面目录下：`eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/jspPrinciple/org/apache/jsp`,其中`eclipse-workspace`是我的eclipse工作空间，`jspPrinciple`是我的web应用名（如果你是手动直接将web应用部署在Tomcat中，那么生成的Java类就应该在Tomcat的`work/Catalina/localhost/jspPrinciple/org/apache/jsp`下）,名字就叫`first_jsp.java`。
 
 ![](http://wx1.sinaimg.cn/large/0072Njp2ly1fodzeuf5n9j30ks03e74w.jpg)
 下面是`first_jsp.java`的源代码，这是一个特殊的Java类，是一个Servlet。
