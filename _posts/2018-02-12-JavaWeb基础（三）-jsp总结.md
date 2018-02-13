@@ -8,21 +8,21 @@ tags: JavaWeb JSP
 ---
 * content
 {:toc}
-JSP(Java Server Page)和Servlet是JavaEE规范的两个基本成员，它们是JavaWeb开发的基础知识。JSP和Servlet的本质是一样的。因为JSP最终必须编译成Servlet才能运行，或者说JSP只是生成Servlet的“草稿”文件。但是随着前后端技术的分离，现在，而JSP会镶嵌有大量的Java代码，不利于前后端的分离，所以逐渐被弃用，被FreeMarker，Velocity，Tapestry等更纯粹的表现层技术所替代。但作为曾经最广泛使用的表现层技术，还是有必要学习一下的。
+JSP(Java Server Page)和Servlet是JavaEE规范的两个基本成员，它们是JavaWeb开发的基础知识。JSP和Servlet的本质是一样的,JSP最终必须编译成Servlet才能运行，或者说JSP只是生成Servlet的“草稿”文件。但是随着前后端技术的分离，而JSP会镶嵌有大量的Java代码，不利于前后端的分离，所以逐渐被弃用，被FreeMarker，Velocity，Tapestry等更纯粹的表现层技术所替代。但作为曾经最广泛使用的表现层技术，还是有必要学习一下的。
 
 
 
 
-JSP比较简单，它的特点是在html页面中嵌入Java代码片段，或使用各种JSP标签，包括用户自定义标签，从而可以动态地题共页面内容。早期JSP页面的使用非常广泛，一个Web应用可以全部由JSP页面组成，只辅以少量的JavaBean即可。自JavaEE标准出现以后，人们逐渐认识到使用JSP充当过多的角色是不合适的。因此,JSP慢慢发展成单一的表现层技术，不再承担义务逻辑组件及持久层组建的责任。
+JSP比较简单，它的特点是在html页面中嵌入Java代码片段，或使用各种JSP标签，包括用户自定义标签，从而可以动态地提供页面内容。早期JSP页面的使用非常广泛，一个Web应用可以全部由JSP页面组成，只辅以少量的JavaBean即可。自JavaEE标准出现以后，人们逐渐认识到使用JSP充当过多的角色是不合适的。因此,JSP慢慢发展成单一的表现层技术，不再承担义务逻辑组件及持久层组件的责任。
 
 ## JSP的基本原理
-JSP的本质是Servlet，当用户向指定Servlet发送请求时，Servlet利用输出流动态生成html页面，包括一个静态的html标签和所有在html页面中出现的内容。由于包括大量的html标签，大量的静态文本及格式，导致Servlet的开发效率低下。JSP的出现弥补了这种不足，JSP通过在标准的html页面中嵌入Java代码，`其静态的部分无需Java程序控制，只是那些需要从数据库读取或需要动态生成的页面内容，才使用Java脚本控制`。
+JSP的本质是Servlet，当用户向指定Servlet发送请求时，Servlet利用输出流动态生成html页面，包括一些静态的html标签和所有在html页面中出现的内容。由于包括大量的html标签、大量的静态文本及格式，导致Servlet的开发效率低下。JSP的出现弥补了这种不足，JSP通过在标准的html页面中嵌入Java代码，`其静态的部分无需Java程序控制，只是那些需要从数据库读取或需要动态生成的页面内容，才使用Java脚本控制`。
 从上介绍可以知道JSP页面的内容由如下两部分组成。
 
-* 静态部分：标准的html标签，静态的页面内容，这些内容与静态的html页面相同。
+* 静态部分：标准的html标签、静态的页面内容，这些内容与静态的html页面相同。
 * 动态部分：受Java程序控制的内容，这些内容由Java脚本动态生成。
 
-先面新建一个web应用`jspPringciple`,并写一个简单的JSP页面`first.jsp`,然后请求该页面，看发生了哪些事。
+下面新建一个web应用`jspPringciple`,并写一个简单的JSP页面`first.jsp`,然后请求该页面，看发生了哪些事。
 `first.jsp` <br/>
 
 ```html
@@ -44,7 +44,7 @@ JSP的本质是Servlet，当用户向指定Servlet发送请求时，Servlet利�
 
 ![](http://wx3.sinaimg.cn/large/0072Njp2ly1fodzeqepd1j30ez05iglx.jpg)
 
-从表面上看我们的web应用，只需要一个JSP界面就能够响应用户请求。事实是我们的Tomcat容器将JSP页面编译成Servlet，Servlet在负责响应用户请求。我用的eclipse开发的，其为上面first.jsp生成的Java类就在下面目录下：`eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/jspPrinciple/org/apache/jsp`,其中`eclipse-workspace`是我的eclipse工作空间，`jspPrinciple`是我的web应用名（如果你是手动直接将web应用部署在Tomcat中，那么生成的Java类就应该在Tomcat的`work/Catalina/localhost/jspPrinciple/org/apache/jsp`下）,名字就叫`first_jsp.java`。
+从表面上看我们的web应用，只需要一个JSP界面就能够响应用户请求。事实是我们的Tomcat容器将JSP页面编译成Servlet，Servlet再负责响应用户请求。我用的eclipse开发的，其为上面first.jsp生成的Java类就在下面目录下：`eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/jspPrinciple/org/apache/jsp`,其中`eclipse-workspace`是我的eclipse工作空间，`jspPrinciple`是我的web应用名（如果你是手动直接将web应用部署在Tomcat中，那么生成的Java类就应该在Tomcat的`work/Catalina/localhost/jspPrinciple/org/apache/jsp`下）,名字就叫`first_jsp.java`。
 
 ![](http://wx1.sinaimg.cn/large/0072Njp2ly1fodzeuf5n9j30ks03e74w.jpg)
 下面是`first_jsp.java`的源代码，这是一个特殊的Java类，是一个Servlet。
@@ -142,8 +142,8 @@ public final class first_jsp extends org.apache.jasper.runtime.HttpJspBase
 ```
 可以看到JSP页面中所有的内容都是由first_jsp.java文件的页面输出流来生成。下图显示了JSP页面的工作原理。
 
-![](http://wx3.sinaimg.cn/large/0072Njp2ly1fodznjb8z4j30ji0a4ab7.jpg)
-根据上面的JSP页面工作原理图，可以得到如下4个结论。
+![](http://wx1.sinaimg.cn/large/0072Njp2ly1foejflkhu6j30ji0a4t9u.jpg)
+根据上面分析及JSP页面工作原理图，可以得到如下4个结论。
 
 * JSP文件必须在JSP服务器内进行。
 * JSP文件必须生成Servlet才能执行。
@@ -151,8 +151,10 @@ public final class first_jsp extends org.apache.jasper.runtime.HttpJspBase
 * JSP页面的访问者无须安装客服端，甚至不需要可以运行Java的运行环境，因为JSP页面输送到客户端的是标准html页面。
 
 ## JSP用法的简要概括
+附：[JSP API文档](http://tomcat.apache.org/tomcat-8.5-doc/jspapi/index.html)
 
 ### JSP四种基本语法
+
 
 * JSP注释
 ```
@@ -176,7 +178,7 @@ public final class first_jsp extends org.apache.jasper.runtime.HttpJspBase
 * page指令
 ```
 <% @page
-[language][extents][import]
+[language][extends][import]
 [session][errorPage][pageEncoding]
 [isErrorPage][contentType]
 %>
@@ -197,15 +199,15 @@ public final class first_jsp extends org.apache.jasper.runtime.HttpJspBase
 
 ### JSP脚本中的9个内置对象
 
-* application: javax.servlet.ServletContext的实例，该实例代表JSP所属的web应用本身，可用于JSP页面，或者在Servlet之间交换信息。
-* config: javax.servlet.ServletConfig的实例，该实例代表该JSP的配置信息。
-* exception: javax.lang.Throwable的实例，该实例代表其它页面中的异常和错误。只有当页面是错误处理页面，即编译指令page的isErrorPage属性为true时，该对象才可以使用。
-* out: javax.servlet.jsp.JspWriter的实例，该实例代表JSP页面的输出流，用于输出内容，形成html页面。
+* application: `javax.servlet.ServletContext`的实例，该实例代表JSP所属的web应用本身，可用于JSP页面，或者在Servlet之间交换信息。
+* config: `javax.servlet.ServletConfig`的实例，该实例代表该JSP的配置信息。
+* exception: `javax.lang.Throwable`的实例，该实例代表其它页面中的异常和错误。只有当页面是错误处理页面，即编译指令page的isErrorPage属性为true时，该对象才可以使用。
+* out: `javax.servlet.jsp.JspWriter`的实例，该实例代表JSP页面的输出流，用于输出内容，形成html页面。
 * page:代表页面本身，通常没有太大用处。也就是Servlet中的this,其类型就是生成的Servlet类，能用page的地方就可用this。
-* pageContext: javax.servlet.jsp.PageContext的实例，该对象代表该JSP页面上下文，使用该对象可以访问页面中的共享数据。
-* request: javax.servlet.http.HttpServletRequest的实例，该对象封装了一次请求，客户端的请求参数都被封装再该对象里。
-* response: javax.servlet.http.HttpServletResponse的实例，代表服务器对客户端的响应。通常很少使用该对象直接响应，而是使用out对象，除非需要生成非字符响应。
-* session: javax.servlet.httpSession的实例，该对象代表一次会话。当客户端浏览器与站点建立连接时，会话开始，当客户端关闭浏览器时，会话结束。
+* pageContext: `javax.servlet.jsp.PageContext`的实例，该对象代表该JSP页面上下文，使用该对象可以访问页面中的共享数据。
+* request: `javax.servlet.http.HttpServletRequest`的实例，该对象封装了一次请求，客户端的请求参数都被封装在该对象里。
+* response: `javax.servlet.http.HttpServletResponse`的实例，代表服务器对客户端的响应。通常很少使用该对象直接响应，而是使用out对象，除非需要生成非字符响应。
+* session: `javax.servlet.httpSession`的实例，该对象代表一次会话。当客户端浏览器与站点建立连接时，会话开始，当客户端关闭浏览器时，会话结束。
 
 ### Cookie和session
 

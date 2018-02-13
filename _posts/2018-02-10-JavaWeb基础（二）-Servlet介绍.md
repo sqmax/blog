@@ -15,6 +15,7 @@ Servlet通常被称为服务器端小程序，是运行在服务器端的程序�
 
 ## Servlet定义
 Servlet是个特殊的Java类，这个Java类必须继承HttpServlet。Servlet通常被称为服务器端小程序，是运行在服务器端的程序，用于处理及响应客服端的请求。自MVC规范出现后，Servlet的责任开始明确下来，仅仅作为控制器使用。Servlet与客户端通过Servlet容器进行交互,Servlet提供不同的方法用于响应客户端请求。
+
 * doGet:用于响应客户端的GET请求。
 * doPost:用于响应客户端的POST请求。
 * doPut:用于响应客户端的PUT请求。
@@ -22,8 +23,8 @@ Servlet是个特殊的Java类，这个Java类必须继承HttpServlet。Servlet�
 
 事实上，客户端的请求通常只有GET和POST两种，Servlet为了响应这两种请求，必须重写doGet和doPost方法。大部分时候，Servlet对于所有请求的响应都是一样的，只需重写一个方法来代替上面的几个方法：只需重写service()方法即可响应客户端的所有请求。
 Servlet在服务器端充当的角色如下图
-![](http://wx4.sinaimg.cn/large/0072Njp2ly1focq1a96ikj30iz06gmzf.jpg)
-附：[Servlet API文档](https://tomcat.apache.org/tomcat-8.0-doc/servletapi/index.html)
+![](http://wx4.sinaimg.cn/large/0072Njp2ly1focq1a96ikj30iz06gmzf.jpg) </br>
+附：[Servlet API文档](http://tomcat.apache.org/tomcat-8.5-doc/servletapi/index.html)
 
 ## Servlet的调用过程和生命周期
 
