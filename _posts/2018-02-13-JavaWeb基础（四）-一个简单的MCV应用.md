@@ -213,5 +213,5 @@ values(null,'crazyit','123');
 insert into user_inf
 values(null,'tiger','123');
 ```
-运行该应用需要安装MySQL数据库，并将MySQL数据库驱动jar包放入web应用的WEB-INF/lib路径下。
+注：运行该应用需要安装MySQL数据库，将MySQL数据库驱动jar包放入web应用的WEB-INF/lib路径下，并在MySQl终端运行以上脚本。
 
