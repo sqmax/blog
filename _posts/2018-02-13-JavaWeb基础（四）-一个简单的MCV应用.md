@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "JavaWeb基础（四）-一个简单的MVC应用"
-date: 2018-02-13
+date: 2018-02-13 15:00
 author: SunQiang
 categories: JavaWeb基础
 tags: Servlet JSP 
