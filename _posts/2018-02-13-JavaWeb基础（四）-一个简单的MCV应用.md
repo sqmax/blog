@@ -77,13 +77,6 @@ import javax.servlet.http.HttpSession;
 @WebServlet(name = "login", urlPatterns = { "/login" })
 public class LoginServlet extends HttpServlet {
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see
-	 * javax.servlet.http.HttpServlet#service(javax.servlet.http.HttpServletRequest,
-	 * javax.servlet.http.HttpServletResponse)
-	 */
 	@Override
 	protected void service(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
@@ -147,8 +140,7 @@ public class DbDao {
 	private String pass;
 	//省略getter,setter方法
 	//........
-	public DbDao() {
-		
+	public DbDao() {		
 	}
 	public DbDao(String driver,String url,String username,String pass) {
 		this.driver=driver;
