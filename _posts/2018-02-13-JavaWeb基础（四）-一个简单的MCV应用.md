@@ -128,10 +128,6 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-/**
- * @author root
- *
- */
 public class DbDao {
 	private Connection conn;
 	private String driver;
