@@ -33,6 +33,20 @@ layout: default
         <article itemscope itemtype="http://schema.org/BlogPosting">
         {{content}}
         </article>
+	<!-- 下面是一些固定项-->
+        <hr>
+        <h2 id="copyright">声明</h2>
+        <blockquote>
+            <ul>
+                <li>本站网址：<a href="https://sqmax.github.io/" target="_blank">http://www.sqmax.top</a> </li>
+                <li>作者 <a href="https://github.com/sqmax/" target="_blank">@sqmax</a> 
+                的更多文章：<a href="https://sqmax.github.io/" target="_blank">个人网站</a> | 
+                <a href="http://blog.csdn.net/sq_polar" target="_blank">CSDN</a> | 
+                <a href="https://my.oschina.net/sqmax" target="_blank">oschina</a>
+                </li>
+            </ul>
+        </blockquote>
+	
         <hr>
 
         {% assign hasSimilar = '' %}
@@ -79,6 +93,7 @@ layout: default
                     内容
                 </div>
                 <ul id="content-side" class="content-ul">
+		    <li><a href="#copyright">声明</a></li>
                     {% if hasSimilar.size > 0 %}
                     <li><a href="#similar_posts">相似文章</a></li>
                     {% endif %}
