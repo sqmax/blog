@@ -49,34 +49,34 @@ GET传送的数据量较小，不能大于2KB。POST传送的数据量较大，�
 
 ## HTTP 首部字段
 
-* 通用首部字段 <br/>
-Cache-Control: 控制缓存的行为<br/>
-Date: 创建报文的日期时间<br/>
-Pragma: 报文指令<br/>
-Via: 代理服务器的相关信息<br/>
-Warning: 错误通知<br/>
+1. 通用首部字段
+* Cache-Control: 控制缓存的行为
+* Date: 创建报文的日期时间
+* Pragma: 报文指令
+* Via: 代理服务器的相关信息
+* Warning: 错误通知
 .....
-* 请求首部字段<br/>
-Accept: 用户代理可处理的媒体类型<br/>
-Accept-Charset: 优先的字符集<br/>
-Accept-Encoding: 优先的内容编码<br/>
-Accept-Language: 优先的内容编码<br/>
-Host: 请求资源所在的服务器<br/>
-Range: 实体的字节范围请求<br/>
+2. 请求首部字段
+* Accept: 用户代理可处理的媒体类型
+* Accept-Charset: 优先的字符集
+* Accept-Encoding: 优先的内容编码
+* Accept-Language: 优先的内容编码
+* Host: 请求资源所在的服务器
+* Range: 实体的字节范围请求
 .....
-* 响应首部字段
-Location: 令客户端重定向至指定的URI<br/>
-Age: 推算资源创建经过的时间<br/>
-Proxy-Authenticate: 代理服务器客户端的认证信息<br/>
-Server: HTTP服务器的安装信息<br/>
-Retry-After: 对再次发起请求的时机要求<br/>
+3. 响应首部字段
+* Location: 令客户端重定向至指定的URI
+* Age: 推算资源创建经过的时间
+* Proxy-Authenticate: 代理服务器客户端的认证信息
+* Server: HTTP服务器的安装信息
+* Retry-After: 对再次发起请求的时机要求
 ......
-* 实体首部字段
-Allow: 资源可支持的HTTP方法<br/>
-Content-Encoding: 实体主体适用的编码方式<br/>
-Content-Language: 实体主体的自然语言<br/>
-Content-Length: 实体主体的大小<br/>
-Content-Location： 替代对应资源的URI<br/>
-Expires: 实体主体过期的日期时间<br/>
-Last-Modified: 资源的最后修改日期时间<br/>
+4. 实体首部字段
+* Allow: 资源可支持的HTTP方法
+* Content-Encoding: 实体主体适用的编码方式
+* Content-Language: 实体主体的自然语言
+* Content-Length: 实体主体的大小
+* Content-Location： 替代对应资源的URI
+* Expires: 实体主体过期的日期时间
+* Last-Modified: 资源的最后修改日期时间
 ......
