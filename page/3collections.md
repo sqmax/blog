@@ -9,23 +9,41 @@ type: page
 * content
 {:toc}
 
+## 学习网站
 
-
-* [阮一峰的个人网站](http://www.ruanyifeng.com/home.html)
-有技术、有人生思考，感觉作者是一个知识面非常广的人，所以在这里放到了第一位。
 * [廖雪峰的官方网站](https://www.liaoxuefeng.com/)
 有简明的java,js,python,git教程，都是作者根据自己的经验写的，最贴合实际开发，快速入门，少走弯路。
-* [Jerry Qu-专注WEB端开发](https://imququ.com/post/series.html)
-有相当多的Http、JS、浏览器相关的知识，正好想复习一下Http的知识,就把它放到第三了。不过这个也是这些链接中我最不熟悉的一个吧，还没看内容如何。
+* [浙江大学PAT](https://www.patest.cn/)
+有基础的算法和数据结构题，对应3个等级考试，和很多高校和企业联盟，考试成绩及简历会根据自己意愿发送给联盟企业，甲级可作为浙江大学的研究复试上机考试。强烈建议应届生考这个。
+* [segmentfault](https://segmentfault.com/)
+一个技术社区。
+* [创造狮导航-为创意者而设计](http://chuangzaoshi.com/)
+* [W3cschool](https://www.w3cschool.cn/)
+各种非常基础的入门教程。
+
+
+## 大牛的博客
+* [阮一峰的个人网站](http://www.ruanyifeng.com/home.html)
+有技术、有人生思考，感觉作者是一个知识面非常广的人。
+* [陈皓](https://coolshell.cn/)
+作者20年软件开发经验，在很多互联网巨头工作过，现在创业吧。
 * [HgG-一个web前端开发工程师](https://gaohaoyang.github.io/)
 这就是这本博客主题的设计者，我想要一直保存着他的链接，因为他的这个Collections有各种链接，我本来不想删的，但大多数是前端相关，似乎对于现在的我没有太多意义，所以就把这个页面的内容全换了，等有需要再到作者的网站里看吧。
-* [brianway](https://brianway.github.io/)
-作者也刚走出校门，也是打算从事Java后端开发，也是这个博客主题的借鉴者，不过作者很厉害，职业规划的很好，校招就拿到了阿里，腾讯，美团的offer，而且博客大都是一些学习经历、知识的总结，很基础，最贴近我的学习经历吧，所以我会跟随一下作者的学习路线，博客方面也会仿照作者去写。
-* **居然把这个给忘了**[浙江大学PAT](https://www.patest.cn/)
-对于转行的我，想要跻身于互联网行业，18年我就要靠这个投简历、找工作了，强烈建议应届生考这个。
+* [小胡子哥](http://www.barretlee.com/)
+a Web Developer
+* [Jerry Qu-专注WEB端开发](https://imququ.com/post/series.html)
+有相当多的Http、JS、浏览器相关的知识，正好想复习一下Http的知识。
+* [Brianway](https://brianway.github.io/)
+作者也刚走出校门，也是打算从事Java后端开发，也是这个博客主题的借鉴者，不过作者很厉害，职业规划的很好，校招就拿到了阿里，腾讯，美团的offer，而且博客大都是一些学习经历、知识的总结，很基础，最贴近我的学习经历吧，所以我会跟随一下作者的学习路线，博客方面也会仿照作者去写。'
 
->第一次编辑于2018-02-13
+## 工具
+* [SM.MS图床](https://sm.ms/)
 
-## Comments
+## 其它的一些链接
+* [JS前端开发群日报](https://www.kancloud.cn/jsfront/month/82796)
+
+
+
+## 评论
 
 {% include comments.html %}

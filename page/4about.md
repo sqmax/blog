@@ -19,10 +19,12 @@ type: page
 * GitHub：[sqmax](https://github.com/sqmax)
 * Email：sqpolar@gmail.com
 * [Weibo](https://weibo.com/6454235156)
-* [知乎](https://www.zhihu.com/people/sqmax)
-* [Facebook](https://www.facebook.com/)
-* [Twitter](https://twitter.com/)
 
+
+## 轻松一刻
+
+* [图虫](https://sqmax.tuchong.com/)
+* [我的音乐](http://music.163.com/#/user/home?id=1375636217)
 
 
 ## 评论
