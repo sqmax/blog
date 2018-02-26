@@ -8,8 +8,8 @@
 # Site settings
 title: SqMax
 brief-intro: fighting! fighting!
-baseurl: "/blog_template" # the subpath of your site, e.g. /blog
-url: "https://sqmax.github.io" # the base hostname & protocol for your site
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "http://www.sqmax.top" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
