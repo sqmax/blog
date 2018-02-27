@@ -13,11 +13,10 @@ type: page
 
 * [廖雪峰的官方网站](https://www.liaoxuefeng.com/)
 有简明的java,js,python,git教程，都是作者根据自己的经验写的，最贴合实际开发，快速入门，少走弯路。
+* [30分钟正则表达式入门](http://www.deerchao.net/tutorials/regex/regex.htm)
+非常好的正则表达式教程
 * [浙江大学PAT](https://www.patest.cn/)
-有基础的算法和数据结构题，对应3个等级考试，和很多高校和企业联盟，考试成绩及简历会根据自己意愿发送给联盟企业，甲级可作为浙江大学的研究复试上机考试。强烈建议应届生考这个。
-* [segmentfault](https://segmentfault.com/)
-一个技术社区。
-* [创造狮导航-为创意者而设计](http://chuangzaoshi.com/)
+有基础的算法和数据结构题，对应3个等级考试，和很多高校和企业联盟，考试成绩、代码及简历会根据自己意愿发送给联盟企业，甲级可作为浙江大学的研究复试上机考试。强烈建议应届生考这个。
 * [W3cschool](https://www.w3cschool.cn/)
 各种非常基础的入门教程。
 
@@ -40,9 +39,13 @@ a Web Developer
 * [SM.MS图床](https://sm.ms/)
 
 ## 其它的一些链接
+* [segmentfault](https://segmentfault.com/)
+一个技术社区。
+* [创造狮导航-为创意者而设计](http://chuangzaoshi.com/)
+* [HTML5 UP](https://html5up.net/)
+很多漂亮前端效果图，免费下载源码。
+* [腾讯Web前端团队-Alloy Team，来自腾讯社交事业群](http://www.alloyteam.com)
 * [JS前端开发群日报](https://www.kancloud.cn/jsfront/month/82796)
-
-
 
 ## 评论
 
