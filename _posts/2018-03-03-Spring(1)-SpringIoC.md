@@ -9,13 +9,15 @@ author: SqMax
 * content
 {:toc}
 
-Spring框架的核心理念是IoC（控制反转）和AOP（面向切面编程），其中IoC是Spring框架的基础，而AOP则是其重要的功能。本文主要谈SpringIoc。控制反转也称（DI依赖注入），我觉得依赖注入更形象，所以我更喜欢称为依赖注入。
+Spring框架的核心理念是IoC（控制反转）和AOP（面向切面编程），其中IoC是Spring框架的基础，而AOP则是其重要的功能。本文主要谈SpringIoC。控制反转也称DI（依赖注入），我觉得依赖注入更形象，所以我更喜欢称为依赖注入。
+
+## DI功能是如何实现的
 
 因为任何一个有实际意义的应用都会后两个以上的类组成，这些类相互之间进行协助来完成特定的业务逻辑。按照传统的做法，每个对象负责管理与自己协助的对象（即它所依赖的对象)，这将导致高度耦合和难以测试的代码。
 
 
 
-## 依赖注入的基本原理
+
 
 下面借用《Spring实战4》的一个例子，很生动地说明了DI的基本原理。
 
@@ -46,6 +48,8 @@ public class DamselRescuingKnight implements Knight {
 耦合具有两面性。一方面，紧密耦合的代码难以测试、难以复用、难以理解，并且典型地表现出“打地鼠”式的bug特性（修复一个bug，将会出现一个或者更多新的bug）。另一方面，一定程度的耦合又是必须的——完全没有耦合的代码什么也做不了。为了完成有实际意义的功能，不同的类必须以适当的方式进行交互。总而言之，耦合是必须的，但应当被小心谨慎地管理。
 
 通过DI，对象的依赖关系将由系统中负责协调各对象的第三方组件在创建对象的时候进行设定。对象无需自行创建或管理它们的依赖关系。
+
+### 不再主动创建任务
 
 下面进行改造骑士，使其不再主动创建任务。
 
@@ -108,7 +112,7 @@ public class SlayDragonQuest implements Quest {
 
 在这里，BraveKnight和SlayDragonQuest被声明为Spring中的bean。就BraveKnight bean来讲，它在构造时传入了对SlayDragonQuest bean的引用，将其作为构造器参数。同时，SlayDragonQuest bean的声明使用了Spring表达式语言（Spring Expression  Language），将System.out（这是一个PrintStream）传入到了SlayDragonQuest的构造器中。
 
-DI所带来的收是尽管BraveKnight依赖于Quest，但是它并不知道传递给它的是什么类型的Quest，也不知道这个Quest来自哪里。与之类似，SlayDragonQuest依赖于PrintStream，但是在编码时它并不需要知道这个PrintStream是什么样子的。只有Spring通过它的配置，能够了解这些组成部分是如何装配起来的。这样的话，就可以在不改变所依赖的类的情况下，修改依赖关系。
+DI所带来的好处是尽管BraveKnight依赖于Quest，但是它并不知道传递给它的是什么类型的Quest，也不知道这个Quest来自哪里。与之类似，SlayDragonQuest依赖于PrintStream，但是在编码时它并不需要知道这个PrintStream是什么样子的。只有Spring通过它的配置，能够了解这些组成部分是如何装配起来的。这样的话，就可以在不改变所依赖的类的情况下，修改依赖关系。
 
 ### 启动应用
 现在已经声明了BraveKnight和Quest的关系，接下来我们只需要装载XML配置文件，并把应用启动起来。
