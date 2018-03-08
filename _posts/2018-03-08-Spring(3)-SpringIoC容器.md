@@ -196,7 +196,6 @@ public class Chapter9Main {
 
 这里我们关注一下JuiceMaker类执行的日志，就可以发现所有的生命周期的方法都已经被执行了，还可以看到BeanPostProcessor是针对所有Bean的，DisposableBean是最后在SpringIoC容器关闭前执行的。
 
-[参见源码]()
 
 
 
