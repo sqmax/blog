@@ -2,7 +2,7 @@
 layout: post
 title:  "Spring Boot微信点餐项目总结"
 categories: Spring-Boot
-tags:  Spring "Spring Boot" JPA 微信公众号开发
+tags:  Spring Spring-Boot JPA 微信公众号开发
 ---
 
 * content
