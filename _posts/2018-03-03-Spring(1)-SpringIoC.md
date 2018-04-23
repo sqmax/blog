@@ -2,7 +2,7 @@
 layout: post
 title:  "Spring(1)-SpringIoC"
 categories: Spring
-tags:  Spring IoC DI
+tags:  Spring IoC
 author: SqMax
 ---
 
