@@ -31,12 +31,15 @@ a Web Developer
 * [Jerry Qu-专注WEB端开发](https://imququ.com/post/series.html)
 有相当多的Http、JS、浏览器相关的知识，正好想复习一下Http的知识。	
 * [HgG-一个web前端开发工程师](https://gaohaoyang.github.io/)
-这就是这本博客主题的设计者，我想要一直保存着他的链接，因为他的这个Collections有各种链接，我本来不想删的，但大多数是前端相关，似乎对于现在的我没有太多意义，所以就把这个页面的内容全换了，等有需要再到作者的网站里看吧。	
+这就是这本博客主题的设计者，我想要一直保存着他的链接，因为他的这个Collections有各种链接，我本来不想删的，但大多数是前端相关，似乎对于现在的我没有太多意义，所以就把这个页面的内容全换了，等有需要再到作者的网站里看吧。      	
 还有它们博客里的友链。
 
 
 ## 工具
 * [SM.MS图床](https://sm.ms/)
+* [作业部落](https://www.zybuluo.com/)
+* [Process on](https://www.processon.com/)
+* [幕布](https://mubu.com/)
 
 ## 其它的一些链接
 * [segmentfault](https://segmentfault.com/)
