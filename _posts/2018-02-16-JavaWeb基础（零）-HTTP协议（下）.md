@@ -12,7 +12,7 @@ tags: HTTP JavaWeb
 
 请求格式
 
-![](http://wx2.sinaimg.cn/mw690/0072Njp2ly1foinjt7re5j30jw0ahmy7.jpg)
+![](http://p91462zt8.bkt.clouddn.com/http.png)
 
 
 
@@ -20,7 +20,7 @@ tags: HTTP JavaWeb
 
 响应格式
 
-![](http://wx2.sinaimg.cn/mw690/0072Njp2ly1foinjxuqi9j30j60ag0tl.jpg)
+![](http://p91462zt8.bkt.clouddn.com/http1.png)
 
 ## 告知服务器意图的HTTP方法
 
@@ -84,3 +84,8 @@ GET传送的数据量较小，不能大于2KB。POST传送的数据量较大，�
 * Expires: 实体主体过期的日期时间
 * Last-Modified: 资源的最后修改日期时间
 * ......
+
+
+
+
+
